@@ -1,0 +1,19 @@
+programa {
+	
+	funcao inicio() {
+	
+		real Figura1, Figura2
+		real Vbucks  
+		escreva("Qual o valor do primeiro item? \n")
+		leia(Figura1)
+		escreva("Qual o valor do segundo item? \n")
+		leia(Figura2)
+		Vbucks = Figura1 + Figura2
+		escreva("O resultado é o valor abaixo  \n")
+		escreva(Vbucks)
+		escreva("\n")
+		escreva("Com 30% de desconto os itens ficam esse valor \n")
+		escreva(Vbucks * 0.70)
+		
+	}
+}
