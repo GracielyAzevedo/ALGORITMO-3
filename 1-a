@@ -1,0 +1,24 @@
+a. Faça um programa que calcule quantos meses faltam para acabar 2021;
+
+programa
+{
+
+	 inclua biblioteca Calendario --> cal
+     
+	/*1. O Coronga transformou 2020 em um ano não muito fácil. Mas vai melhorar.
+a. Faça um programa que calcule quantos meses faltam para acabar 2020;
+*/
+
+
+     funcao inicio()
+	{
+		inteiro mesAtual = 0
+
+		mesAtual = cal.mes_atual()
+
+		//escreva("em que mes voce está: ")
+		//leia(mesAtual)
+
+		escreva("\n\nfaltam ", 12 - mesAtual, " mes(es) para acabar o ano")
+	}
+}
